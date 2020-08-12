@@ -1,81 +1,81 @@
-Component Count:,215,,,,
-Ref,Qty,Value,Footprint,Vendor's ref,Note
-"C1, C2, C3, C4, C5, C18, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C57, C58, C59, C60, C62, C63, C64, C65, C68, C73, C78, C81, C82, ",38,100n,Capacitor_SMD:C_0805_2012Metric,710-885012207098,
-"C56, C75, C76",3,100n,Capacitor_SMD:C_0805_2012Metric,810-CGA5L4X7T2W104KS,500V or 1 kV (rf path) (needs cleaning of soldermask) 
-"C70, C71",2,100n,Capacitor_SMD:C_0805_2012Metric,810-CGA4J2X7R2A104MA,100V (50V rail) 
-"C6, C31, ",2,100p,Capacitor_SMD:C_1206_3216Metric,,All 1206 caps Johanson/AVX HiFreq or alike
-"C7, C19, C32, ",3,180p,Capacitor_SMD:C_1206_3216Metric,81-GRM31A5C2J181JW1D,Murata
-"C8, C33, ",2,390p,Capacitor_SMD:C_1206_3216Metric,81-GRM31A5C3A391JW1D,Murata
-"C9, C10, C34, C35, ",4,560p,Capacitor_SMD:C_1206_3216Metric,605-501R18N561JV4E,Johanson
-"C11, C23, C36, ",3,1200p,Capacitor_SMD:C_1206_3216Metric,,All 1206 caps Johanson/AVX HiFreq or alike
-"C12, C25, ",2,39p,Capacitor_SMD:C_1206_3216Metric,81-GRM31A5C2J390JW1D,Murata
-"C13, C26, ",2,56p,Capacitor_SMD:C_1206_3216Metric,581-12067A560KAT2A,Murata
-"C14, C27, ",2,120p,Capacitor_SMD:C_1206_3216Metric,81-GRM31A5C2J121JW1D,Murata
-"C15, C28, ",2,150p,Capacitor_SMD:C_1206_3216Metric,605-102R18N151JV4E,Johanson
-"C16, C29, ",2,220p,Capacitor_SMD:C_1206_3216Metric,605-501R18N221JV4E,Johanson
-"C17, C30, ",2,470p,Capacitor_SMD:C_1206_3216Metric,605-501R18N471JV4E,Johanson
-"C20, ",1,330p,Capacitor_SMD:C_1206_3216Metric,605-501R18N331JV4E,Johanson
-"C21, ",1,680p,Capacitor_SMD:C_1206_3216Metric,581-12067A681JAT2A,Murata
-"C22, ",1,1000p,Capacitor_SMD:C_1206_3216Metric,605-501R18N102JV4E,Johanson
-"C24, ",1,2200p,Capacitor_SMD:C_1206_3216Metric,810-CGA5H4C0G2J222J,TDK
-"C61, C84, C85, ",3,1u,Capacitor_SMD:C_0805_2012Metric,bulk,
-"C66, ",1,220p,Capacitor_SMD:C_0805_2012Metric,bulk,
-"C67, ",1,330u/ 63V,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,647-UPJ1K331MHD6,
-"C69, C77, ",2,1500p,Capacitor_SMD:C_0805_2012Metric,bulk,
-"C72, ",1,1000p,Capacitor_SMD:C_0805_2012Metric,bulk,
-"C74, ",1,680p,Capacitor_SMD:C_0805_2012Metric,bulk,
-"C79, C80, ",2,4n7,Capacitor_SMD:C_0805_2012Metric,bulk,
-"C83, ",1,DNI,Capacitor_SMD:C_0805_2012Metric,bulk,DO NOT INSTALL
-"D1, D2, ",2,1N5711,Diode_SMD:D_SOD-123,621-1N5711W-F,
-"D3, ",1,1N4148,Diode_SMD:D_SOD-123,78-1N4148W-E3-08,
-"D4, ",1,PDZ5.1BGWJ,Diode_SMD:D_SOD-123,771-PDZ5.1BGWJ,
-"D5, D6, ",2,1N4148W,Diode_SMD:D_SOD-123,78-1N4148W-E3-08,
-"F1, ",1,Fuse_Small,N/A,N/A,
-"FB1, FB2, FB3, FB4, FB5, FB6, FB7, FB8, FB9, FB10, FB11, FB12, FB13, FB14, FB15, FB16, FB17, FB18, FB19, ",19,FB,Inductor_SMD:L_0805_2012Metric,623-2508052217Y3,
-"J1, ",1,Antenna,Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal,700-9433,RadioSpare
-"J2, ",1,HL2,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,,
-"J3, ",1,RF3,n2adr:U.FL_Hirose_U.FL-R-SMT-1_Vertical,,
-"J4, ",1,RF1,n2adr:U.FL_Hirose_U.FL-R-SMT-1_Vertical,,
-"J5, ",1,RCJ-041,n2adr:PhonoRcaRCJ-04x,,
-"J6, ",1,50VDC,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal",651-1935161,
-"J7, ",1,12V,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",651-1984617,
-"J8, ",1,Fan,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,kf2510-2,"eBay, Amazon"
-"J9, ",1,HL2_12V,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,,kp2510-3
-"J10, ",1,DB1,Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm,,"KF2510-6 on hl2 board, wire and housing from amp board"
-"K1, K2, K3, K4, K5, K6, K7, K8, K9, K10, K11, K12, K13, ",13,EC2-3NU,n2adr:RelayDPDT01,80-EC2-3NU,replacement 653-G6S-2DC32
-"L1,…/L12",12,,T50:T50_V_THT,"6xT50-2, 4xT50-6, 2xT50-10",https://www.kitsandparts.com/
-"L13, ",1,47nH,Inductor_SMD:L_0805_2012Metric,81-LQW2BAS47NG00L,Caution : needs some attention for handsoldering
-"L14, ",1,7427929112,n2adr:SignalCommunications-WE-PF_7427929XXX,710-7427929112,
-"L15, L16, ",2,1.8u,Inductor_SMD:L_1812_4532Metric,652-CC453232-1R8KL,
-"Q1, ",1,MRF101AN,Package_TO_SOT_THT:TO-220-3_Vertical,771-MRF101AN,
-"Q2, ",1,2N7002,Package_TO_SOT_SMD:SOT-23,512-2N7002,
-"Q3, ",1,IRLML6402,TO_SOT_Packages_SMD:SOT-23,942-IRLML6402TRPBF,replacement : Radiospare ref 301322
-"Q4, ",1,DTC144E,TO_SOT_Packages_SMD:SOT-23,755-DTC144ECAT116,
-"R1, R15, ",2,100,Resistor_SMD:R_0805_2012Metric,bulk,
-"R2, R13, ",2,0,Resistor_SMD:R_0805_2012Metric,bulk,
-"R3, R12, ",2,DNI,Resistor_SMD:R_0805_2012Metric,bulk,
-"R4, R11, ",2,56k,Resistor_SMD:R_0805_2012Metric,bulk,
-"R5, R10, R31, ",3,100k,Resistor_SMD:R_0805_2012Metric,bulk,
-"R6, R7, R8, R9, R25, R27, R28, R30, ",8,100,Resistor_SMD:R_2512_6332Metric,588-ALN2512F100RE-1,
-"R14, R35, ",2,JNC,Resistor_SMD:R_0805_2012Metric,bulk,
-"R16, R33, ",2,10k,Resistor_SMD:R_0805_2012Metric,bulk,
-"R17, ",1,1k,Resistor_SMD:R_0805_2012Metric,bulk,
-"R18, R19, R22, R23, ",4,300,Resistor_SMD:R_2512_6332Metric,279-3522300RFT,
-"R20, R21, ",2,75,Resistor_SMD:R_2512_6332Metric,279-CRGH2512J75R,
-"R24, ",1,27,Resistor_SMD:R_2512_6332Metric,279-352127RFT,
-"R26, ",1,51,Resistor_SMD:R_2512_6332Metric,279-352151RFT,
-"R29, ",1,2k,Resistor_SMD:R_0805_2012Metric,bulk,
-"R32, ",1,47k,Resistor_SMD:R_0805_2012Metric,bulk,
-"R34, ",1,0.036,Resistor_SMD:R_0612_1632Metric,755-LTR18EZPJSR036,or 754-KRL3216CR036F-T1
-"R36, R37, R38, ",3,TBD,Resistor_SMD:R_0805_2012Metric,bulk,
-"R39, ",1,5k6,Resistor_SMD:R_0805_2012Metric,bulk,
-"T1, T2, ",2,Coupler,T50:T50_Coupler,FT50-43,https://www.kitsandparts.com/
-"T3, ",1,744851330,n2adr:SignalCommunications-WE-DCT,710-744851330,
-"U1, ",1,MCP6282E/MS,Package_SO:MSOP-8_3x3mm_P0.65mm,579-MCP6282T-E/MS,
-"U2, ",1,MAX11645,n2adr:MAX11613,700-MAX11645EUA+,
-"U3, ",1,MCP23008,Package_SO:SSOP-20_5.3x7.2mm_P0.65mm,579-MCP23008T-E/SS,
-"U4, ",1,ULN2003,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,595-ULN2003LVPWR,
-"U5, ",1,LM35-NEB,Package_TO_SOT_THT:TO-220-3_Vertical,535-9458,RadioSpare
-"U6, ",1,MCP4561,Package_SO:MSOP-8_3x3mm_P0.65mm,579-MCP4561T-103E/MS,
-"U7, ",1,INA193,Package_TO_SOT_SMD:SOT-23-5,595-INA193AIDBVR,
-All reference are from Mouser except specified (Radiospare & Kits&parts) ,,,,,
+Component Count:,215,,,Voltage,,
+Ref,Qty,Value,Footprint,,Vendor's ref,Note
+"C1, C2, C3, C4, C5, C18, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C57, C58, C59, C60, C62, C63, C64, C65, C68, C73, C78, C81, C82, ",38,100n,Capacitor_SMD:C_0805_2012Metric,,710-885012207098,
+"C56, C75, C76, C66",3,100n,Capacitor_SMD:C_0805_2012Metric,500/1000V,810-CGA5L4X7T2W104KS,500V or 1 kV (rf path) (needs cleaning of soldermask) 
+"C70, C71",2,100n,Capacitor_SMD:C_0805_2012Metric,100V,810-CGA4J2X7R2A104MA,100V (50V rail) 
+"C6, C31, ",2,100p,Capacitor_SMD:C_1206_3216Metric,500/1000V,,All 1206 caps Johanson/AVX HiFreq or alike
+"C7, C19, C32, ",3,180p,Capacitor_SMD:C_1206_3216Metric,500/1000V,81-GRM31A5C2J181JW1D,Murata
+"C8, C33, ",2,390p,Capacitor_SMD:C_1206_3216Metric,500/1000V,81-GRM31A5C3A391JW1D,Murata
+"C9, C10, C34, C35, ",4,560p,Capacitor_SMD:C_1206_3216Metric,500/1000V,605-501R18N561JV4E,Johanson
+"C11, C23, C36, ",3,1200p,Capacitor_SMD:C_1206_3216Metric,500/1000V,,All 1206 caps Johanson/AVX HiFreq or alike
+"C12, C25, ",2,39p,Capacitor_SMD:C_1206_3216Metric,500/1000V,81-GRM31A5C2J390JW1D,Murata
+"C13, C26, ",2,56p,Capacitor_SMD:C_1206_3216Metric,500/1000V,581-12067A560KAT2A,Murata
+"C14, C27, ",2,120p,Capacitor_SMD:C_1206_3216Metric,500/1000V,81-GRM31A5C2J121JW1D,Murata
+"C15, C28, ",2,150p,Capacitor_SMD:C_1206_3216Metric,500/1000V,605-102R18N151JV4E,Johanson
+"C16, C29, ",2,220p,Capacitor_SMD:C_1206_3216Metric,500/1000V,605-501R18N221JV4E,Johanson
+"C17, C30, ",2,470p,Capacitor_SMD:C_1206_3216Metric,500/1000V,605-501R18N471JV4E,Johanson
+"C20, ",1,330p,Capacitor_SMD:C_1206_3216Metric,500/1000V,605-501R18N331JV4E,Johanson
+"C21, ",1,680p,Capacitor_SMD:C_1206_3216Metric,500/1000V,581-12067A681JAT2A,Murata
+"C22, ",1,1000p,Capacitor_SMD:C_1206_3216Metric,500/1000V,605-501R18N102JV4E,Johanson
+"C24, ",1,2200p,Capacitor_SMD:C_1206_3216Metric,500/1000V,810-CGA5H4C0G2J222J,TDK
+"C61, C84, C85, ",3,1u,Capacitor_SMD:C_0805_2012Metric,,bulk,
+"C67, ",1,330u/ 63V,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,,647-UPJ1K331MHD6,
+"C69, C77, ",2,1500p,Capacitor_SMD:C_0805_2012Metric,,bulk,
+"C72, ",1,1000p,Capacitor_SMD:C_0805_2012Metric,100V,bulk,
+"C74, ",1,680p,Capacitor_SMD:C_0805_2012Metric,,bulk,
+"C79, C80, ",2,4n7,Capacitor_SMD:C_0805_2012Metric,,bulk,
+"C83, ",1,DNI,Capacitor_SMD:C_0805_2012Metric,,bulk,DO NOT INSTALL
+"D1, D2, ",2,1N5711,Diode_SMD:D_SOD-123,,621-1N5711W-F,
+"D3, ",1,1N4148,Diode_SMD:D_SOD-123,,78-1N4148W-E3-08,
+"D4, ",1,PDZ5.1BGWJ,Diode_SMD:D_SOD-123,,771-PDZ5.1BGWJ,
+"D5, D6, ",2,1N4148W,Diode_SMD:D_SOD-123,,78-1N4148W-E3-08,
+"F1, ",1,Fuse_Small,N/A,,N/A,
+"FB1, FB2, FB3, FB4, FB5, FB6, FB7, FB8, FB9, FB10, FB11, FB12, FB13, FB14, FB15, FB16, FB17, FB18, FB19, ",19,FB,Inductor_SMD:L_0805_2012Metric,,623-2508052217Y3,
+"J1, ",1,Antenna,Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal,,700-9433,RadioSpare
+"J2, ",1,HL2,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,,,
+"J3, ",1,RF3,n2adr:U.FL_Hirose_U.FL-R-SMT-1_Vertical,,,
+"J4, ",1,RF1,n2adr:U.FL_Hirose_U.FL-R-SMT-1_Vertical,,,
+"J5, ",1,RCJ-041,n2adr:PhonoRcaRCJ-04x,,,
+"J6, ",1,50VDC,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal",,651-1935161,
+"J7, ",1,12V,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",,651-1984617,
+"J8, ",1,Fan,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,,kf2510-2,"eBay, Amazon"
+"J9, ",1,HL2_12V,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,,,kp2510-3
+"J10, ",1,DB1,Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm,,,"KF2510-6 on hl2 board, wire and housing from amp board"
+"K1, K2, K3, K4, K5, K6, K7, K8, K9, K10, K11, K12, K13, ",13,EC2-3NU,n2adr:RelayDPDT01,,80-EC2-3NU,replacement 653-G6S-2DC32
+"L1,…/L12",12,,T50:T50_V_THT,,"6xT50-2, 4xT50-6, 2xT50-10",https://www.kitsandparts.com/
+"L13, ",1,47nH,Inductor_SMD:L_0805_2012Metric,,81-LQW2BAS47NG00L,Caution : needs some attention for handsoldering
+"L14, ",1,7427929112,n2adr:SignalCommunications-WE-PF_7427929XXX,,710-7427929112,
+"L15, L16, ",2,1.8u,Inductor_SMD:L_1812_4532Metric,,652-CC453232-1R8KL,
+"Q1, ",1,MRF101AN,Package_TO_SOT_THT:TO-220-3_Vertical,,771-MRF101AN,
+"Q2, ",1,2N7002,Package_TO_SOT_SMD:SOT-23,,512-2N7002,
+"Q3, ",1,IRLML6402,TO_SOT_Packages_SMD:SOT-23,,942-IRLML6402TRPBF,replacement : Radiospare ref 301322
+"Q4, ",1,DTC144E,TO_SOT_Packages_SMD:SOT-23,,755-DTC144ECAT116,
+"R1, R15, ",2,100,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R2, R13, ",2,0,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R3, R12, ",2,DNI,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R4, R11, ",2,56k,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R5, R10, R31, ",3,100k,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R6, R7, R8, R9, R25, R27, R28, R30, ",8,100,Resistor_SMD:R_2512_6332Metric,,588-ALN2512F100RE-1,
+"R14, R35, ",2,JNC,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R16, R33, ",2,10k,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R17, ",1,1k,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R18, R19, R22, R23, ",4,300,Resistor_SMD:R_2512_6332Metric,,279-3522300RFT,
+"R20, R21, ",2,75,Resistor_SMD:R_2512_6332Metric,,279-CRGH2512J75R,
+"R24, ",1,27,Resistor_SMD:R_2512_6332Metric,,279-352127RFT,
+"R26, ",1,51,Resistor_SMD:R_2512_6332Metric,,279-352151RFT,
+"R29, ",1,2k,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R32, ",1,47k,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R34, ",1,0.036,Resistor_SMD:R_0612_1632Metric,,755-LTR18EZPJSR036,or 754-KRL3216CR036F-T1
+"R36, R37, R38, ",3,TBD,Resistor_SMD:R_0805_2012Metric,,bulk,
+"R39, ",1,5k6,Resistor_SMD:R_0805_2012Metric,,bulk,
+"T1, T2, ",2,Coupler,T50:T50_Coupler,,FT50-43,https://www.kitsandparts.com/
+"T3, ",1,744851330,n2adr:SignalCommunications-WE-DCT,,710-744851330,
+"U1, ",1,MCP6282E/MS,Package_SO:MSOP-8_3x3mm_P0.65mm,,579-MCP6282T-E/MS,
+"U2, ",1,MAX11645,n2adr:MAX11613,,700-MAX11645EUA+,
+"U3, ",1,MCP23008,Package_SO:SSOP-20_5.3x7.2mm_P0.65mm,,579-MCP23008T-E/SS,
+"U4, ",1,ULN2003,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,,595-ULN2003LVPWR,
+"U5, ",1,LM35-NEB,Package_TO_SOT_THT:TO-220-3_Vertical,,535-9458,RadioSpare
+"U6, ",1,MCP4561,Package_SO:MSOP-8_3x3mm_P0.65mm,,579-MCP4561T-103E/MS,
+"U7, ",1,INA193,Package_TO_SOT_SMD:SOT-23-5,,595-INA193AIDBVR,
+All reference are from Mouser except specified (Radiospare & Kits&parts) ,,,,,,
+All capacitors are between 10 or  25V rated unless specified,,,,,,
